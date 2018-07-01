@@ -12,6 +12,11 @@
 		EDD8AF6A20E8B8180053460B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD8AF6820E8B8180053460B /* Main.storyboard */; };
 		EDD8AF6C20E8B8190053460B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD8AF6B20E8B8190053460B /* Assets.xcassets */; };
 		EDD8AF6F20E8B8190053460B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD8AF6D20E8B8190053460B /* LaunchScreen.storyboard */; };
+		EDD8AF7720E8B8300053460B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8AF7620E8B8300053460B /* CollectionViewController.swift */; };
+		EDD8AF7920E8B86B0053460B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8AF7820E8B86B0053460B /* ResultViewController.swift */; };
+		EDD8AF7B20E8B8E40053460B /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8AF7A20E8B8E40053460B /* RateViewController.swift */; };
+		EDD8AF7D20E8C1DA0053460B /* Prize.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8AF7C20E8C1DA0053460B /* Prize.swift */; };
+		EDD8AF7F20E8C2860053460B /* PrizeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8AF7E20E8C2860053460B /* PrizeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		EDD8AF6B20E8B8190053460B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDD8AF6E20E8B8190053460B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDD8AF7020E8B8190053460B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD8AF7620E8B8300053460B /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		EDD8AF7820E8B86B0053460B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		EDD8AF7A20E8B8E40053460B /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		EDD8AF7C20E8C1DA0053460B /* Prize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prize.swift; sourceTree = "<group>"; };
+		EDD8AF7E20E8C2860053460B /* PrizeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				EDD8AF6B20E8B8190053460B /* Assets.xcassets */,
 				EDD8AF6D20E8B8190053460B /* LaunchScreen.storyboard */,
 				EDD8AF7020E8B8190053460B /* Info.plist */,
+				EDD8AF7620E8B8300053460B /* CollectionViewController.swift */,
+				EDD8AF7820E8B86B0053460B /* ResultViewController.swift */,
+				EDD8AF7A20E8B8E40053460B /* RateViewController.swift */,
+				EDD8AF7C20E8C1DA0053460B /* Prize.swift */,
+				EDD8AF7E20E8C2860053460B /* PrizeManager.swift */,
 			);
 			path = GachaApp;
 			sourceTree = "<group>";
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD8AF7F20E8C2860053460B /* PrizeManager.swift in Sources */,
+				EDD8AF7D20E8C1DA0053460B /* Prize.swift in Sources */,
+				EDD8AF7720E8B8300053460B /* CollectionViewController.swift in Sources */,
 				EDD8AF6720E8B8180053460B /* ViewController.swift in Sources */,
 				EDD8AF6520E8B8180053460B /* AppDelegate.swift in Sources */,
+				EDD8AF7B20E8B8E40053460B /* RateViewController.swift in Sources */,
+				EDD8AF7920E8B86B0053460B /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
